@@ -1,3 +1,10 @@
+WebDAV Experiments
+==================
+
+This repo was forked from [seanox/spring-webdav](https://github.com/seanox/spring-webdav/) to
+experiment with WebDAV. No contributions are planned, but are a definite option for the future.
+
+<!--
 <p>
   <a href="https://github.com/seanox/spring-webdav/pulls"
       title="Development is waiting for new issues / requests / ideas"
@@ -105,3 +112,4 @@ CR: WebDavFilter: Optimized access to the servlet API
 [Issues](https://github.com/seanox/spring-webdav/issues)  
 [Requests](https://github.com/seanox/spring-webdav/pulls)  
 [Mail](http://seanox.de/contact)
+-->
