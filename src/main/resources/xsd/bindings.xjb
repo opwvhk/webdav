@@ -1,0 +1,10 @@
+<bindings xmlns="https://jakarta.ee/xml/ns/jaxb" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="3.0">
+	<globalBindings>
+		<javaType name="java.time.LocalDateTime" xmlType="xs:dateTime"
+		          parseMethod="opwvhk.webdav.JavaTimeAdapter.parseLocalDateTime"
+		          printMethod="opwvhk.webdav.JavaTimeAdapter.printLocalDateTime"/>
+		<javaType name="java.time.LocalDate" xmlType="xs:date"
+		          parseMethod="opwvhk.webdav.JavaTimeAdapter.parseLocalDate"
+		          printMethod="opwvhk.webdav.JavaTimeAdapter.printLocalDate"/>
+	</globalBindings>
+</bindings>

@@ -921,17 +921,17 @@ public class WebDavFilter extends HttpFilter {
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_DEPTH, XmlWriter.ElementType.OPENING);
                             xmlWriter.writeText("Infinity");
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_DEPTH, XmlWriter.ElementType.CLOSING);
-    
+
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_TIMEOUT, XmlWriter.ElementType.OPENING);
                             xmlWriter.writeText(timeout);
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_TIMEOUT, XmlWriter.ElementType.CLOSING);
-    
+
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_LOCKTOKEN, XmlWriter.ElementType.OPENING);
                             xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_HREF, XmlWriter.ElementType.OPENING);
                                 xmlWriter.writeText(token);
                             xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_HREF, XmlWriter.ElementType.CLOSING);
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_LOCKTOKEN, XmlWriter.ElementType.CLOSING);
-    
+
                         xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_LOCKROOT, XmlWriter.ElementType.OPENING);
                             xmlWriter.writeElement(WEBDAV_DEFAULT_XML_NAMESPACE, XML_HREF, XmlWriter.ElementType.OPENING);
                                 xmlWriter.writeText(this.locateMappingPath(request));
@@ -1072,7 +1072,7 @@ public class WebDavFilter extends HttpFilter {
     }
 
     private static class SuccessState extends State {
-        
+
         private static final long serialVersionUID = -1771577635432317281L;
 
         @Override
